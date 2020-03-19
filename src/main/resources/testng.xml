@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" name="Testsuite" verbose="3">
+
+<listeners>
+<listener class-name="com.iqvia.api.automation.utilities.Listners"></listener>
+</listeners> 
+
+<test thread-count="1" name="IQVIA Country APITest">
+<classes>
+<!-- <class name="TestBase"></class>
+<class name="PropUtil"></class> -->
+<class name="com.iqvia.api.automation.test.CountriesAPITest"></class>
+</classes>
+
+</test>
+
+</suite>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5077" started-at="2020-03-19T15:47:24Z" finished-at="2020-03-19T15:47:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5077" started-at="2020-03-19T15:47:24Z" finished-at="2020-03-19T15:47:29Z">
+      <class name="com.iqvia.api.automation.test.CountriesAPITest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.iqvia.api.automation.test.CountriesAPITest@77cd7a0]" name="setup" is-config="true" duration-ms="20" started-at="2020-03-19T21:17:24Z" finished-at="2020-03-19T21:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAllCountries()[pri:0, instance:com.iqvia.api.automation.test.CountriesAPITest@77cd7a0]" name="getAllCountries" is-config="true" duration-ms="3214" started-at="2020-03-19T21:17:24Z" finished-at="2020-03-19T21:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCountries -->
+        <test-method status="PASS" signature="verifyCountryCode()[pri:0, instance:com.iqvia.api.automation.test.CountriesAPITest@77cd7a0]" name="verifyCountryCode" duration-ms="804" started-at="2020-03-19T21:17:27Z" finished-at="2020-03-19T21:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCountryCode -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:1, instance:com.iqvia.api.automation.test.CountriesAPITest@77cd7a0]" name="checkStatusCode" duration-ms="7" started-at="2020-03-19T21:17:28Z" finished-at="2020-03-19T21:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="setCityFromJsonResponse()[pri:2, instance:com.iqvia.api.automation.test.CountriesAPITest@77cd7a0]" name="setCityFromJsonResponse" duration-ms="165" started-at="2020-03-19T21:17:28Z" finished-at="2020-03-19T21:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCityFromJsonResponse -->
+        <test-method status="PASS" signature="verifySelectedCapitalInfo()[pri:3, instance:com.iqvia.api.automation.test.CountriesAPITest@77cd7a0]" name="verifySelectedCapitalInfo" duration-ms="740" started-at="2020-03-19T21:17:28Z" finished-at="2020-03-19T21:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectedCapitalInfo -->
+        <test-method status="PASS" signature="verifyStatusLine()[pri:4, instance:com.iqvia.api.automation.test.CountriesAPITest@77cd7a0]" name="verifyStatusLine" duration-ms="5" started-at="2020-03-19T21:17:29Z" finished-at="2020-03-19T21:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusLine -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.iqvia.api.automation.test.CountriesAPITest@77cd7a0]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-03-19T21:17:29Z" finished-at="2020-03-19T21:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.iqvia.api.automation.test.CountriesAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
